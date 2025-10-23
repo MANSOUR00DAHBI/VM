@@ -14,4 +14,4 @@ $(OBJC): main.c
 	$(CC) -c main.c -o $(OBJC) $(FLAGS)
 
 clean:
-	rm  -f $(OBJC) $(EXE)
+	del  -f $(OBJC) $(EXE)
