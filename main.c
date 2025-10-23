@@ -16,17 +16,17 @@ uint8_t clear_bit(uint8_t *value , uint8_t index){
 }
 int main(){
     printf("GUI Started!\n");
-	bool bm[16]={0};
-	bool bit ;
+	uint8_t bm[16]={0};
+	uint8_t bit ;
 	//bm[13] = false;
 	//bm[14] = true ;
       setbit(bm,3);
         setbit(bm,9);
         unsetbit(bm,9);
 
-	for(int8 i = 0 ; i < sizeof(bm)/sizeof(bm[0]);++i){
+	for(uint8_t i = 0 ; i < sizeof(bm)/sizeof(bm[0]);++i){
 		bit = getbit(bm,i);
-		printf("%0.2ld->bit = %d\n",i,bit);
+		printf("%0.2d->bit = %d\n",i,bit);
     }
 	
     return 0;
