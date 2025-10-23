@@ -3,4 +3,8 @@
 #define INST_H
 #include <error.h>
 
+typedef enum{
+    HALT = 0
+}
+
 #endif
