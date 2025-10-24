@@ -5,10 +5,10 @@
 #include <interface.h>
 #define CAPACITY_STACK 1024
 
-typedef int64_t Word ;
+typedef int64_t word ;
 typedef struct {
-  Word Stack[CAPACITY_STACK];
-  Word instruction_pointer;
+  word Stack[CAPACITY_STACK];
+  word instruction_pointer;
   int halt ;
 
 }vm;

@@ -5,6 +5,6 @@
 
 typedef enum{
     HALT = 0
-}
+}Err;
 
 #endif
