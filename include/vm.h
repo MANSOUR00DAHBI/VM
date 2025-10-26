@@ -5,7 +5,7 @@
 #include <interface.h>
 #define CAPACITY_STACK 1024
 
-typedef int64_t word ;
+typedef int word ;
 typedef struct {
   word Stack[CAPACITY_STACK];
   word instruction_pointer;
